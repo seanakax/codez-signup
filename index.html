@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./CodEZLogo.png" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body>
+    <div class="poster">
+      <img src="./CodEZLogo.png" />
+      <h2>CodEZ Sign Up</h2>
+      <a class="nav-item" href="./Login.html"
+        >Already Have An Account? Log in</a
+      >
+      <a class="nav-item" href="./Forget.html"> Forgot Your Password?</a>
+    </div>
+
+    <div class="section">
+      <h1 class="section-title">Create a CodEZ account</h1>
+      <div class="contact-form-container">
+        <form id="contact-form">
+          <div class="form-element-container">
+            <label for="firstname"> First Name </label>
+
+            <input
+              type="text"
+              id="firstname"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="form-element-container">
+            <label for="lastname"> Last Name </label>
+
+            <input
+              type="text"
+              id="lastname"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+
+          <div class="form-element-container">
+            <label for="email"> Email </label>
+
+            <input
+              placeholder="Enter your email"
+              type="email"
+              id="email"
+              required
+            />
+          </div>
+          <div class="form-element-container">
+            <label for="password"> Create a password </label>
+
+            <input
+              placeholder="Create a password"
+              type="password"
+              id="password"
+              required
+            />
+          </div>
+
+          <div id="check">
+            <input type="checkbox" id="terms" required />
+            <label for="terms">
+              I am 13 years or older and I accept terms and conditions
+            </label>
+          </div>
+
+          <div id="view-terms">
+            <a
+              href="https://docs.google.com/document/d/16kKfPMlLdNt9ae9Kw9rtVLal_grcWrw52fo95cbPVzE/edit"
+              target="_blank"
+            >
+              View Terms and Conditions</a
+            >
+          </div>
+
+          <input id="submit" type="submit" value="Submit" />
+
+          <a id="view-terms" href="./Login.html"
+            >Already Have An Account? Log in</a
+          >
+          <a id="view-terms" href="./Forget.html"> Forgot Your Password?</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+body {
+  background-color: #dfd9e2;
+}
+
+.poster {
+  padding: 0.1rem;
+  display: flex;
+  background-color: rgb(63, 1, 148);
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.poster > img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  padding-right: 1rem;
+}
+
+.poster > h2 {
+  color: rgb(233, 217, 151);
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  color: rgb(233, 217, 151);
+  padding: 1.6rem 0.5rem;
+}
+
+.section {
+  background-color: #dfd9e2;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 0rem;
+}
+
+.contact-form-container {
+  width: 100%;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  width: 100%;
+}
+
+.form-element-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 0.05rem;
+  width: 35%;
+  justify-content: center;
+}
+.form-element-container > label {
+  font-size: 1.5rem;
+}
+.form-element-container > input {
+  padding: 1.5rem;
+  border: 0rem;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.form-element-container:focus {
+  font-size: 1.5rem;
+}
+
+#check {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 0.5rem;
+  font-size: 1.7rem;
+}
+
+#terms {
+  justify-content: flex-start;
+}
+
+#view-terms {
+  color: darkblue;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1rem;
+  text-decoration: none;
+}
+
+#message {
+  resize: none;
+  width: 100%;
+  display: inline-block;
+}
+
+#submit {
+  padding: 2rem 0rem;
+  display: block;
+  background-color: #f3c98b;
+  border: 0rem;
+  width: 35%;
+  border-radius: 0.25rem;
+}
+
+@media screen and (max-width: 520px) {
+  .form-element-container {
+    width: 85%;
+  }
+}
